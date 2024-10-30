@@ -3,7 +3,8 @@ use desesperanza;
 create table clientes(
 id_usuario int auto_increment primary key,
 nombre varchar(50) not null,
-correo varchar(50) not null
+correo varchar(50) not null,
+contraseña varchar(20) not null
 );
 create table panes(
 id_pan int auto_increment primary key,
